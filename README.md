@@ -10,4 +10,13 @@ extracted it with `tar xzvf <file.tar.gz>`
 
 copied it to /usr/local/bin
 
+# Manuals
+Read the manual at [docker installation manual](https://docs.docker.com/install/linux/docker-ce/debian/#set-up-the-repository)
+
+also read the manual here [docker engine installation](https://www.hiroom2.com/2017/06/26/debian-9-install-docker-engine/)
+
+*** Did not run anything after adding the apt repositories ***
+
+installed the package with:
+`$ sudo apt-get install docker-engine=1.12.1~rc2-0~jessie`
 
