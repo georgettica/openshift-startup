@@ -24,3 +24,13 @@ installed the package with:
 the images I needed to pull are listed in [](./a)`
 
 and then `oc cluster up` worked
+
+# Adding remote control
+for running the cluster in a virtualbox, I used the manual
+[](https://code-maven.com/virtualbox-host-only-network-ssh-to-remote-machine)
+
+very usefull!
+
+also I wrote a script to transfer dockers (use ssh-copy-id before you start)
+
+the script is [](./sc.sh)
