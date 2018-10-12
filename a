@@ -1,0 +1,5 @@
+openshift/origin-haproxy-router:v3.7.1
+openshift/origin-deployer:v3.7.1
+openshift/origin:v3.7.1
+openshift/origin-docker-registry:v3.7.1
+openshift/origin-pod:v3.7.1

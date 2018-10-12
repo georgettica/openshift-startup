@@ -20,3 +20,7 @@ also read the manual here [docker engine installation](https://www.hiroom2.com/2
 installed the package with:
 `$ sudo apt-get install docker-engine=1.12.1~rc2-0~jessie`
 
+# Docker images to pull
+the images I needed to pull are listed in [](./a)`
+
+and then `oc cluster up` worked
