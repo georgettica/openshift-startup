@@ -34,3 +34,17 @@ very usefull!
 also I wrote a script to transfer dockers (use ssh-copy-id before you start)
 
 [This is the script](./sc.sh)
+
+# Using multiple virtualboxes
+
+Due to the face we need to test this on multiple machine, I needed to clone  \ use the same HDD copy twice.
+
+to do that go through the following steps:
+
+1. Change the UID of the harddrive with this commands:
+> $ VBoxManage internalcommands sethduuid <vdi file location>
+> **DO NOT DO THIS WITH WORKING MACHINE, CAUSES ISSUE**
+
+1.1 if you do happen to change the hdd of a working machine and want to fix it.
+[go to the following page](https://stackoverflow.com/questions/15074878/virtual-box-uuid-07c3-does-not-match-the-value-2c1b-stored-in-th)
+
