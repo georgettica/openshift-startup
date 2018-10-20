@@ -15,22 +15,22 @@ Read the manual at [docker installation manual](https://docs.docker.com/install/
 
 also read the manual here [docker engine installation](https://www.hiroom2.com/2017/06/26/debian-9-install-docker-engine/)
 
-*** Did not run anything after adding the apt repositories ***
+**Did not run anything after adding the apt repositories**
 
 installed the package with:
 `$ sudo apt-get install docker-engine=1.12.1~rc2-0~jessie`
 
 # Docker images to pull
-the images I needed to pull are listed in [](./a)`
+[The images I needed to pull are listed in here](./a)
 
 and then `oc cluster up` worked
 
 # Adding remote control
-for running the cluster in a virtualbox, I used the manual
-[](https://code-maven.com/virtualbox-host-only-network-ssh-to-remote-machine)
+for running the cluster in a virtualbox, 
+[I used the manual over here](https://code-maven.com/virtualbox-host-only-network-ssh-to-remote-machine)
 
 very usefull!
 
 also I wrote a script to transfer dockers (use ssh-copy-id before you start)
 
-the script is [](./sc.sh)
+[This is the script](./sc.sh)
